@@ -155,3 +155,209 @@ Some of them prefer to use directly the defi platforms because they do not trust
 
 All of them would use the aggregator if it would do something that they cannot do directly in the DeFi platforms/protocols. ( e.g. **move positions from one protocol to an other, AI services, strategic services, farming services** - and Zapper does not provide anything like that from what they’ve told me}
 
+# KeyFi platform testing - feature by feature
+
+In this section of the study I will take the KeyFi product page by page and will list the impressions, thoughts and feedback of the users and I will write some recommendations based on these facts.
+
+## First Impression
+
+Users seem to like the KeyFi naming and they all start very optimistic.
+
+## KeyFi Dashboard
+
+- insert pic
+
+### Total Portfolio/Total Platforms/Total Wallet
+
+Some of the users do not understand the difference between Total Portfolio and Total Wallet. Many of them ask for a Portfolio breakdown which is not present here. They would also expect in Total Platforms to see their open positions not only in AAVE and Compound, and the NET APY not shown for the platforms is stirring a lot of confusion. 
+
+Total Wallet is also a thing of confusion for the users, they do not understand why they are listed so many tokens if they do not even have them in their wallet. This information tends to be irrelevant and distracting for them. 
+
+### Recommendation
+
+**Total Portfolio** - since the study has uncovered that most of the users are utilizing aggregators to find their lost funds and to see all their positions at a glance - Total Portfolio should display a portfolio breakdown.
+
+**Total Platforms** - should be a list of their open positions in different DeFi platforms/Protocols - all of them not only the two selected ones because if a user doesn’t have an open position in AAVE or Compound for her this product will be rendered useless and the bounce will be overwhelming.
+
+The fact that when 
+
+**Total Wallet** - in order to avoid confusion and make this view to answer to the users’ need this should only display the tokens and assets the user has in her wallet not the whole list. 
+
+**Tooltips and Explanatory texts** - there is an utter need of text that explain what the features do and what they stand for. A lot of confusion can be avoided if we add tooltips and informational texts all over the platform.
+
+- insert pic
+
+## Best Rates Table
+
+Users do not understand what the “Best Rates” stand for, they are confused because they do not know what are the **Best Rates** for. Most of them do not know what the term **Supply Rate** stands for. Some of them realize that it stand for the **APY** but it takes a lot of time for them to understand and they wouldn’t spend so much time in a different context outside of the testing to try to understand what  the term stands for. All of the users have played with the chevrons to relist the assets. Sometimes this lifts the confusion sometimes this leads to some more confusion.
+
+>These best rates, best rates. Wow. What is this, this rates about? What Supply rates? About what? I don't know. What is, what is a door? What is this thing 
+
+User 3
+
+> Yeah. I have total portfolio, total platforms, total wallets, [raspberry] is telling me nothing. I mean, in, in portfolio, if we're talking about the KeyFi or the folio, I will expect that that's part, the folio is regarding to the stuff that we have in, in KeyFi, Which I don't know what this means about the total platforms. Why, why do I have that distinction between platform and wallet 
+
+User 4
+
+### Recommendations
+
+Next to the Best Rates title it should be added what the Best Rates are for - also tooltips with explanations and the users’ lingo should be here on the platform as well.  In this case some tool tips for **Supply Rate** could work wonders. Right now the confusion is quite big since there are 2 values for which the Best Rate could stand for - Price or **Supply Rate**. Bear in mind that most of the users are interested in **Price and Interest rates**.
+
+Use the same lingo the users have - as for the case of Supply Rate which was completely confusing it should be used APY which is the one they know.
+
+## Overall Impressions
+
+The page doesn’t come as a solution for the users’ needs of a means of visualizing all of their scattered funds nor to show in an aggregated view all of their open positions from all the platforms. 
+
+The product fails to produce a portfolio breakdown visualization and doesn’t come in handy to see their assets in their wallet since there are a lot of other tokens displayed beside of the ones they own and this creates a lot of noise.
+
+There isn’t enough information fed to the users to understand what are some terms and what do they do. 
+
+Users get quite frustrated when interacting with the Best Rates table.
+
+## KeyFi Platforms
+
+- insert pic
+
+All the users understood how to navigate the two menus - the Asset Menu and the Platform menu. Some of them liked the fact that these categories of actions were there but some of them felt daunted about the multitude o choice and most of them said that they haven’t used derivatives ever. Most of them appreciated the fact that they had different Asset actions on the right menu correlated with DeFi platforms but they were quite frustrated that most of the platforms listed were only listed as “Coming Soon”.
+
+> This is frustrating why do they list it here if they do not work?
+
+User 4
+
+There was some confusion and curiosity stirred by the fact that Compound was always opened default. Also the 0.00% NET APY value was also quite confusing for the users since they were expecting to see the net APY of the platform.  
+
+Some users when trying to do swaps asked if there could be the tokens in their wallets highlighted in the  token dropdown so they can know what they already have.  which leads to a recommendation:
+
+In the context of swapping when the user starts the action and has to choose to swap from his assets to some other one the dropdown could only contain the assets she has in the wallet and when she opens the dropdown for the tokens in which she wants to swap the input amount the dropdown could list all of the options supported.
+
+For the Uniswap platform most of them stated that they wouldn’t use this platform to swap and they would use Uniswap directly since they have a much richer array of tokens and KeyFi has a limited array of tokens.
+
+Some of the users were utterly frustrated that the Platform section did not show them their Compound positions. It is an interesting mental model that should be taken into account - all of the users expected to see a page in which all their positions and different platform could be seen as an overview showing the APY rates and Total Volumes ( which is a very important indicator for the users).
+
+Some of them asked if they could add a custom token. 
+
+**As mentioned earlier - most of the users prefer to interact directly with the DeFi platforms and protocols and this section doesn’t seem for them to bring them any added value. In order for the users to come to the KeyFi platform and interact with the different protocols from within KeyFi there should be something they can do only from KeyFi and not directly from the platform/protocol.**
+
+### Recommendation
+
+Present the users with a page - an overview page with all of their open positions listed, with the different platforms and protocols with their APY rates so they can make an easy comparison in between them. Since users are very interested in best Price rates and best Interest Rates - these information should be dominating the views and should help the users to make decisions for their future investments. As a user has stated he wants to see different APYs so if he sees something better he will close his position from a protocol and open it to an other with better rates. 
+
+Try to make features which are indispensable to them. something which they do not find anywhere.
+
+
+## KeyFi ReBalancer
+
+- insert pic
+
+This was the most controversial feature of the product. Most of the users were utterly intrigued by the feature and due to the fact that they were not presented with any helping text they imagined a lot and of course since their mental model did not match with the product a lot of frustration has been revealed.
+
+First of all there was very ineffective the fact that there was no explanation of how this feature works, what is it’s aim and what need does it solve. All of the users hoped and thought that this feature will give them the ability to move funds from one platform to the other without getting to the actual platform, same thing with their open positions. They could not understand why the NET APY rates were 0.00% for both of the platforms presented. They couldn’t quite get why there was only Compound and AAVE present and not the others. None of them understood that these are the only two platforms supported. 
+
+The lack of Empty States in the two cards hadn’t helped them either.
+
+Another point of confusion was that the Top Interest Rate was from a platform which was not supported. This fact brought a lot of friction and frustration. 
+
+A top friction point was when users hit the “Manage” button and they were taken to the Platforms Deposit/Withdrawal Page in the DeFi Platforms section. At this point the frustration levels were through the roof. Users did not understand at all that they are taken to that page because they have no funds and they had to deposit funds beforehand. Many of them thought that there is a bug in the platform.
+
+Frustration grew again when they went on the Liquidity section and they were redirected to the same page of the Swap page in Platforms section of the product. At this point one of the most choleric users told me that 
+
+> Totally fuck up. Why, why is doing that?  
+
+User 3
+
+**Conclusion - none of the users understood what the KeyFi Rebalancer does.**
+
+### Recommendations
+
+**EXTREMELY IMPORTANT - to persuade users to use a feature and to make them include it in their routine we need to solve a problem and to do that we have to start by explaining what this feature is about, what it problem it aims to solve and how is going to solve it.**
+
+**List open positions and supported platforms** - In this section users should be able to see all their open positions or at least be told that this feature only supports some platforms and the ones which are supported should be communicated to the users.
+
+**Consistency is needed** - there is a lot of confusion to a user when she clicks on a button situated in a card which has AAVE in the header and then she is redirected to a page that shows her two other platforms non of them being AAVE.
+
+**Less guess work more explanatory text** - Right now as things are the user has to do a lot of guess work and there is a lot of cognitive load on its shoulders and things shouldn’t be like that. 
+
+**Suggestion for Top Interest Rate** - add the timestamp when was the last time the rate was updated so users know how accurate this information is. This is some crucial information based on which they are going to move funds and make investments. We could also give them the possibility to choose the top 5 tokens/assets for which they can see the Interest Rate - not all users may be interested in the token we are showing them. 
+
+We need to help the users and take them by the hand and be their guide. 
+
+
+## KeyFi AI
+
+- insert pic
+
+In this section of the product users are more content that they are presented with some information about what this feature is about. Most of the users find the second sentence confusing and are still inquiring what this feature is about. They do understand that this is a beta version and it needs to be trained but they are curious if it does, predictions, offer strategies. Many of them are interested in this kind of service but they feel like some information is missing - how is this AI working, what type of service is providing, how do you interact with it. 
+
+All of the users are frustrated because the page of the feature is just informative and there is nowhere mentioned that this is still under construction so they expect to interact with it and they cannot. 
+
+### Recommendation
+
+**F-score** - Since some of the users might know a bit more about the way AIs work to give more trust to this feature the AI F-score should be displayed and open to the public. This would be a benchmark of trust and it should convert users to use it.
+
+F-score details[here](https://deepai.org/machine-learning-glossary-and-terms/f-score).
+
+**Examples of Accounts using this AI** - since we cannot expect users to embark on using this feature only by reading a nice story - let us not forget that we are dealing with very risk averse users and who do not give their trust lightly - we should put together some wallets/accounts which use the AI so we can showcase how this feature works.
+
+
+## KeyFi Tokens
+
+- insert pic
+
+This section has stirred a lot of frustration and friction. Users were quite unhappy and annoyed with this text. They felt that being directed to the SelfKey Wallet download was some sort of hard sell, schill for the wallet and they got a bit outraged. 
+
+> I would, if I really want to use it, I would register, use their wallet, but almost financing, like just a very few amount just to get Credentials. So I'm not sure if it's the good way to do it, but if they want me to download them on it, I can, I can, I can do it, but I'm not, I, I'm not sure I'm going to use their wallet. 
+
+User 1
+
+Most of them are very much against KYC on blockchain and one of them wanted to stop the interview at this point due to the state of distress he got into. 
+
+On Credentials
+
+> I think it's the controlling. If you want to stake, if you want to participate, you have to use their wallet so you can get Credentials. I don't like to be obliged to do something, you know? So if you do me issue, tell me you can do this, but first you have to download it. It's not, it's not a way of doing that, like to force. So If they suggest me here on the left, download our wallet. Okay. But I don't think it's a good way to, to, to, to, to make people use their wallet by forcing them this way. I feel like I am forced. Like, I am like, it's very commercial way of doing to make money, but this is not exactly what I like to be approached. 
+
+User 1
+
+User are not happy about KYC they are saying that it prevents them from their privacy rights and they feel like it’s against the Ethereum culture and philosophy of DeFi which made it possible for people to own their funds without a middle organization and without any governments implications.
+
+> That's why the government has some strict rules about that. When it comes to KYC, defy has offers their users to keep their identity anonymously with the latest news on the media. What, what we, what I'm thinking of is after some time, since, you know, corporate enterprises are slowly adopting Bitcoin and after sometime the, I think government's gonna push all the exchanges. And in order to when, and then when a user like to make transaction, they should be verified by the government and the exchange. Apart from when you make transaction with an address out of the verified addresses, you can be accused by many things. So that's why defy is still showing some potential to keep yourself anonymous. 
+> 
+> But this is my point of view because I'm really into this subject. But as an average user, you know, they are doing everything to get rewards for fee. So it won't be hard for them to publish their passport or their driving license or ID on a application since they have been doing it for years, with most of the exchanges that are not have great, you know, background. So, okay. The reward is, you know, it's motivating, but also I would like to ask as a user, what's the idea behind of it? Why should I reveal my ID, you know, to, to use a different platform, which I can use it, you know, anonymously on the other pages or other, other aggregators. 
+
+User 4
+
+## Overall Conclusions and Recommendations
+
+- insert pic
+
+Asked if they would trust this product all of the users said no. Most of them said that they would need to read the white paper to understand more what the product does, some of them stated that it’s too anonymous and they need to make a background check of the team. I believe the overall confusing flows and lack of information made the users feel uncomfortable and the overall UI mishaps, bugs and slips gave them the impression that they wouldn’t trust their funds inside this product. 
+
+One user has stated 
+
+> It feels unpolished, it looks like somethin that I could do myself, I mean look at those flags at the bottom
+
+User 1
+
+## Overall Recommendations 
+
+-  Add transparency to the project - present the team behind it, make AMAs, give the users the possibility to run a background check.
+
+-  Trust Benchmarks - many users are finding some twitter influencers, podcasts and crypto personalities to be the image of trust. Also the influencers and podcasts seem to be a good gateway for users to find out about different products and services.
+
+-  Whitepaper - access to whitepaper is key due to the User Profile - all of the users are doing research on their end before embarking on using a DeFi product. The whitepaper is one powerful means to gain the users’ trust.
+
+-  A better response to the users’ needs - as our study has shown there is 
+
+    - a real need for a DeFi aggregator to give the users’ a complete overview of their scattered funds, an overview of all of their opened positions, a portfolio breakdown - these three seem to be the top features for which the users are returning to a DeFi aggregator.
+
+    - There is a need of giving the users a complete overview of the Interest Rates and Prices for different platforms/protocols at a glance so they can get help in finding the best APY rates and take their decisions based on this.
+
+    - There is a need to have the possibility to move funds from one platform to the other based on the APY rates without actually going and doing this by hand, platform by platform.
+
+    - There is a need of Investment strategies - something to help them gain easily and lift the cognitive load off their shoulders - a guide for investment
+
+- Retaining and sparking users’ interest - based on the study’s data it was discovered that users’ prefer to do their investment and fund movements directly inside of the DeFi platforms/protocols. In order for them to use a product like a DeFi aggregator they would need to find services and features which do not exist on the DeFi platforms and which are doing and serving different purposes ( moving, opening and closing a DeFi position without going to the platforms one by one). If these desiderates are not met the users will go directly to the original DeFi platforms/protocols.
+
+- Defining better what problem the product solves - having a better understanding of what the product aims to solve will also lead to a better understanding of how the product is solving the need. Afterwards when everything is clear information needs to be communicated to the users in order for them to understand how the product intends to solve their problems. Right now there is a lack of clarity and this affects the way users perceive the product. Mostly they do not understand what the product aims to to for them and how the product would make their lives better.
+
+- Interesting finding towards positioning - the study has revealed that many users utilizing DeFi aggregator as a means of education - they go to these services in order for them to learn about the DeFi space because they have everything under the same roof. Knowing this, KeyFi can assume the role of a DeFi tutor and help the users in their pursuit of learning and starting to invest in a safer manner.
